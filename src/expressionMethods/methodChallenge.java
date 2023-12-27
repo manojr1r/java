@@ -23,17 +23,17 @@ public class methodChallenge {
     }
 
     public static int calculateHighScorePosition(int playerScore){
+
+        int position = 4; // as default (else condition was 4) add default value on the top
         if (playerScore >= 1000){
-            return 1;
+            position = 1;
         }
-        else if ((playerScore>=500 && playerScore<1000)){
-            return 2;
+        else if (playerScore >= 500 ){
+                   position = 2;
         }
-        else if (playerScore>=100 && playerScore<500){
-            return 3;
+        else if (playerScore >= 100 ){
+            position = 3;
         }
-        else {
-            return 4;
-        }
+        return position;
     }
 }
