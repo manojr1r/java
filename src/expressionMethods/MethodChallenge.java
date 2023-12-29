@@ -1,6 +1,6 @@
 package expressionMethods;
 
-public class methodChallenge {
+public class MethodChallenge {
     public static void main(String[] args) {
         int position;
         position =  calculateHighScorePosition(1500);

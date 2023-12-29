@@ -1,6 +1,6 @@
 package primitive;
 
-public class bascis {
+public class Bascis {
     // 8 primitive data types
     //int is the default value in no.'s
     //double is default for floating no.'s

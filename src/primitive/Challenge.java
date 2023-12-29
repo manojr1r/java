@@ -1,6 +1,6 @@
 package primitive;
 
-public class challenge {
+public class Challenge {
     public static void main(String[] args) {
         byte num1 = 10;
         short num2 = 20;
