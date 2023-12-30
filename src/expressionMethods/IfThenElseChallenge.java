@@ -10,8 +10,7 @@ public class IfThenElseChallenge {
 
 public static void sonyMethod(boolean gameOver,int score, int levelCompleted,int bonus) {
 
-
-    if(gameOver){
+    if(gameOver){  //as it is direct boolean Value
         score += (levelCompleted * bonus);
         System.out.println("finalscore = " + score);
     }
