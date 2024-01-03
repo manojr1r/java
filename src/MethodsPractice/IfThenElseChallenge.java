@@ -1,4 +1,4 @@
-package expressionMethods;
+package MethodsPractice;
 
 public class IfThenElseChallenge {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package expressionMethods;
+package MethodsPractice;
 
 public class SpeedConverter {
     public static void main(String[] args) {

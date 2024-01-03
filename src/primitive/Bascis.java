@@ -17,6 +17,7 @@ public class Bascis {
 
 //        System.out.println(Integer.SIZE);
         int intMinValue = Integer.MIN_VALUE;
+        System.out.println(intMinValue);
         intMinValue = -2_14_74_83_648;  // Can use _ can't use ',' to break no.
 
         long longValue = 100;    // no need to add L if in 'int' range
