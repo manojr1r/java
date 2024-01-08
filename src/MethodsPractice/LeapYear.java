@@ -6,21 +6,15 @@ public class LeapYear {
     }
 
     public static boolean isLeapYear(int year) {
-        boolean leapYear;
+        boolean leapYear = false;
 
-        if (year <= 0) {
-            leapYear = false;
-        }
-
-        if (year > 0 && year < 9999) {
-            if (year % 4 == 0) {  // if year is divisible by 4, go to next step.
+        if (year > 0 && year < 9999){
+            if (year % 4 == 0) {
                 if (year % 100 == 0) {
-                    if (year % 400 == 0) {
-                        leapYear = true;
-                    } else leapYear = false;
+                    leapYear = year % 400 == 0;
                 } else leapYear = true;
-            } else leapYear = false;
-        } else leapYear = false;
+            }
+        }
 
         return leapYear;
     }
