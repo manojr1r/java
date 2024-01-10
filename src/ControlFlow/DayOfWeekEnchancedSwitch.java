@@ -3,6 +3,7 @@ package ControlFlow;
 public class DayOfWeekEnchancedSwitch {
     public static void main(String[] args) {
 
+
         System.out.println(dayOfWeek(0));
         System.out.println(dayOfWeek(1));
         System.out.println(dayOfWeek(2));
