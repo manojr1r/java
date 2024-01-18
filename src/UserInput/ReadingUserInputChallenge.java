@@ -1,3 +1,5 @@
+package UserInput;
+
 import java.util.Scanner;
 
 public class ReadingUserInputChallenge {

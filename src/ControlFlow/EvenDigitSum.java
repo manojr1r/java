@@ -1,6 +1,6 @@
 package ControlFlow;
 
-public class GetEvenDigitSum {
+public class EvenDigitSum {
     public static void main(String[] args) {
         System.out.println(getEvenDigitSum(25746));
     }

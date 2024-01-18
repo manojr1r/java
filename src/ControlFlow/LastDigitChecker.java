@@ -1,6 +1,6 @@
 package ControlFlow;
 
-public class HasSameLastDigit {
+public class LastDigitChecker {
     public static void main(String[] args) {
         System.out.println( hasSameLastDigit(28,99,19));
 

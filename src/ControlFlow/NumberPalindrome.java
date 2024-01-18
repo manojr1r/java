@@ -1,6 +1,6 @@
 package ControlFlow;
 
-public class IsPalindrome {
+public class NumberPalindrome {
     public static void main(String[] args) {
         System.out.println(  isPalindrome(125));
     }

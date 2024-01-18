@@ -1,6 +1,6 @@
 package ControlFlow;
 
-public class HasSharedDigit {
+public class SharedDigit {
     public static void main(String[] args) {
 
     }

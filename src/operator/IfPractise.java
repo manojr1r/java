@@ -12,6 +12,8 @@ public class IfPractise {
         }
 
         String makeOfCar = "Tata";
+
+        //TernaryOperator
         System.out.println ( makeOfCar == "Tatua" ? false : true);
     }
 }
