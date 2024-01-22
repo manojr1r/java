@@ -1,4 +1,4 @@
-package OOP.Inheritance.BankChallenge1;
+package OOP.Inheritance.BankChallenge;
 
 public class ClassesChallenge {
     public static void main(String[] args) {
