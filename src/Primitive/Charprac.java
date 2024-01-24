@@ -1,4 +1,4 @@
-package primitive;
+package Primitive;
 
 public class Charprac {
     public static void main(String[] args) {

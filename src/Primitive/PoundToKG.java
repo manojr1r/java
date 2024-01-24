@@ -1,4 +1,4 @@
-package primitive;
+package Primitive;
 
 public class PoundToKG {
     public static void main(String[] args) {

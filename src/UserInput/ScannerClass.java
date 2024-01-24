@@ -34,7 +34,7 @@ public class ScannerClass {
                 System.out.println("Please enter Valid date of Year ");
                 scanner.next();
             }
-        }while (/*!(scanner.hasNextInt())*/true );
+        }while (/* !(scanner.hasNextInt())*/true );
 
         scanner.close();
         System.out.print("Hi "+name + (Year.now().getValue() - dob )+ " year's");

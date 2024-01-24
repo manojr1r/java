@@ -1,4 +1,4 @@
-package operator;
+package Operator;
 
 public class IfPractise {
     public static void main(String[] args) {

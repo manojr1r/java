@@ -1,4 +1,4 @@
-package primitive;
+package Primitive;
 
 public class Bascis {
     // 8 primitive data types

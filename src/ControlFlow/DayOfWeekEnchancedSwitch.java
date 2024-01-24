@@ -24,7 +24,7 @@ public class DayOfWeekEnchancedSwitch {
             case 5 -> "Friday";
             case 6 -> "Saturday";
             default ->{
-                String valu = "Invalid Day";;
+                String valu = "Invalid Day";
                 yield valu;} // if you want to compute (or || &) assign a value, and return at last need to use "yield" key
         };
     return day + " Stands for " +weekDay;

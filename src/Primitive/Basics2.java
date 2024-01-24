@@ -1,4 +1,4 @@
-package primitive;
+package Primitive;
 
 
 public class Basics2 {
