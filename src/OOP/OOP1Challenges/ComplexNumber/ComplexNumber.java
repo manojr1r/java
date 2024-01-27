@@ -34,5 +34,4 @@ public class ComplexNumber {
     public void subtract (  ComplexNumber complex ){
         subtract(complex.real, complex.imaginary);
     }
-
 }
