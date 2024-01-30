@@ -3,3 +3,14 @@ Press Ctrl + Shift twice to search for files, actions, symbols, UI elements, Git
 Pressing double Shift again, will extend the search to non-project items.
 Use tabs or direct shortcuts Ctrl N for classes, Ctrl Shift N for files, Ctrl Alt Shift N for symbols,
 and Ctrl Shift A for actions to narrow your search results.
+
+To check all methods in Class
+ Ctrl + Click on Windows and Cmd + Click on macOS.
+ If we need to see all uses of a class or method in our project, we invoke Edit – Find Usages – Find Usages (Alt + F7).
+ File Structure Popup ( Ctrl + F12 )
+
+ Live templates
+ Use live templates to insert frequent code constructs.
+
+ When you select a live template from the suggestion list, the template expands to the variant that is defined on the Editor
+ Live Templates page of the Settings/Preferences dialog (Ctrl Alt S).

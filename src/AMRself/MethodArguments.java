@@ -1,12 +1,9 @@
 package AMRself;
 
 public class MethodArguments {
-    public static void main(String[] args) {
 
-        byteInputFibonacci(0,  9);
-    }
 
-    private static void byteInputFibonacci(int num, int seriesUpto){
+    public static void byteInputFibonacci(int num, int seriesUpto){
 
         if (seriesUpto<0){
             System.out.print("series should be a greater than zero");
