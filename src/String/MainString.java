@@ -1,4 +1,4 @@
-package AMRself;
+package String;
 
 public class MainString {
     public static void main(String[] args) {
