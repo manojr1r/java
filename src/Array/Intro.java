@@ -24,7 +24,8 @@ public class Intro {
         Test ar = new Test();
         int[] am = ar.array(5);
         Object objectArray = am;
-        System.out.println(Arrays.toString( objectArray);
+        System.out.println(objectArray);
+
         System.out.println(Arrays.toString(am));
 
 
