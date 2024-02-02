@@ -7,5 +7,8 @@ public class Main {
         school.getClasss();
         school.getSimpleNameee();
 
+        if (school instanceof School){
+            
+        }
     }
 }

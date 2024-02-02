@@ -15,7 +15,7 @@ public class Circle {
     }
     public double getArea(){
         System.out.println(" The round of "+ ( Math.PI * radius * radius)+ " is " + Math.round( Math.PI * radius * radius) +
-                " ,Up to two decimals "+ Math.round(( Math.PI * radius * radius*100)/100.0)  );
+                " ,Up to two decimals "+ Math.round(( Math.PI * radius * radius*100))/100.0  );
 
         return ( Math.PI * radius * radius);
 
