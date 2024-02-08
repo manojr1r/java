@@ -9,6 +9,10 @@ public class ElectricCar extends Car {
         this.batterySize = batterySize;
     }
 
+    public void charge() {
+        System.out.println("Battery Charging");
+    }
+
     public void drive(){
         System.out.println( "Electrifying the world in silence");
     }

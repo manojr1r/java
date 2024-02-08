@@ -10,13 +10,10 @@ public class GasPoweredCar extends Car {
         this.cyclinder = cyclinder;
     }
 
-    public GasPoweredCar(double avgKmPerLiter, int cyclinder) {
-        super("Gas");
-        System.out.println("Gas car selected");
-        this.avgKmPerLiter = avgKmPerLiter;
-        this.cyclinder = cyclinder;
+    public void runEngine(){
+        System.out.printf( "Gas powered Car engine started, %d cylinders fired up Feel the ride\n" , cyclinder);
     }
-    public void drive(){
-        System.out.println( "Feel the ride");
+    public void fillFuel(){
+        System.out.println( "'Petrol' / 'Diesel' filling");
     }
 }

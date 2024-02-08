@@ -12,4 +12,7 @@ public class GasPoweredCar extends Car {
     public void drive(){
         System.out.println( "Feel the combustion engine ride");
     }
+    public void fillFuel(){
+        System.out.println( "'Petrol' / 'Diesel' filling");
+    }
 }

@@ -13,8 +13,8 @@ public class HybridCar extends Car {
     public void drive(){
         System.out.println( "Hybrid drive, \"mix of both\"");
     }
-    public void hdrive(){
-        System.out.println( "Hybrid drive only");
+    public void hybrid(){
+        System.out.println( "Check fuel \"Gas\" & \"Charge\"");
     }
 
 }

@@ -7,22 +7,20 @@ public class Car {
        this.description = description;
     }
 
-
     public void startEngine(){
         System.out.println(getClass().getSimpleName() + " -> Engine starts");
     }
 
     public void drive(){
         System.out.println("Fasten the seat belts, drive started");
-    }
-
-    public void onlyCar(){
-        System.out.println(getClass().getSimpleName() + " only \"CAR\" class method");
+        System.out.println( getClass().getSimpleName() + " driving");
+        runEngine();
     }
 
     protected void runEngine(){
         System.out.println("Engine start running");
-
-        drive();
+    }
+    public void car(){
+        System.out.println(getClass().getSimpleName() + " only \"CAR\" class method");
     }
 }

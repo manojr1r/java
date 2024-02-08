@@ -11,11 +11,11 @@ public class HybridCar extends Car {
         this.batterySize = batterySize;
     }
 
-    public void drive(){
-        System.out.println( "Hybrid drive mix of both");
+    public void runEngine(){
+        System.out.printf( "Hybrid drive, mix of both %d cyclinders %d batterySize fired up\n",cyclinder, batterySize );
     }
-    public void hdrive(){
-        System.out.println( "Hybrid drive only");
+    public void hybrid(){
+        System.out.println( "Hybrid drive \"only\"");
     }
 
 }
