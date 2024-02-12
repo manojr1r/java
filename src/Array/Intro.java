@@ -1,6 +1,5 @@
 package Array;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Intro {
@@ -10,7 +9,7 @@ public class Intro {
         int[] a = new int[5]; /* 1st */  /* "[]" both sides*/
         a[0] = 3;
         System.out.println( a.length);
-        Test[] b = new Test[2];  /* will accept Classes and primitives */
+        RandomArray[] b = new RandomArray[2];  /* will accept Classes and primitives */
         //**************************
         int ab[] = new int[1];  // 'C' type array declaration
 
@@ -21,8 +20,8 @@ public class Intro {
         System.out.println(c.toString());      //prints hex-decimal
         System.out.println(Arrays.toString(c));  // actual variables
 
-        Test ar = new Test();
-        int[] am = ar.array(5);
+        RandomArray ar = new RandomArray();
+        int[] am = RandomArray.generate(5);
         Object objectArray = am;
         System.out.println(objectArray);
 

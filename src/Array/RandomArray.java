@@ -2,8 +2,8 @@ package Array;
 
 import java.util.Random;
 
-public class Test {
-    public int[] array(int len){
+public class RandomArray {
+    public static int[] generate(int len){
         Random random = new Random();
         int[] testArray = new int[len];
         for (int i = 0 ; i < len ; i++){

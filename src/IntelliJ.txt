@@ -1,5 +1,8 @@
+
+Ctrl + Shift + F (Search Everywhere)
+
 Search Everywhere
-Press Ctrl + Shift twice to search for files, actions, symbols, UI elements, Git branches and comments across your project.
+Press Shift twice to search for files, actions, symbols, UI elements, Git branches and comments across your project.
 Pressing double Shift again, will extend the search to non-project items.
 Use tabs or direct shortcuts Ctrl N for classes, Ctrl Shift N for files, Ctrl Alt Shift N for symbols,
 and Ctrl Shift A for actions to narrow your search results.
@@ -14,3 +17,13 @@ To check all methods in Class
 
  When you select a live template from the suggestion list, the template expands to the variant that is defined on the Editor
  Live Templates page of the Settings/Preferences dialog (Ctrl Alt S).
+
+ Expand Code Section
+ Press Ctrl W to expand code selection. Each time you press Ctrl W, the selection expands to other areas of code.
+ For example, the selection expands from a method name to the expression calling this method,
+ then to the whole statement, then to the containing block, and so on.
+
+Find Usages
+You can view the list of all usages of a class, method or variable across the whole project, and quickly navigate to the selected item.
+Place the caret at a symbol and press Ctrl Alt F7 (Edit | Find Usages | Show Usages).
+To jump to a usage, select it from the list and press Enter

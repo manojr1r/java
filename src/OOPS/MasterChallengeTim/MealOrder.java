@@ -1,4 +1,4 @@
-package OOPS.MatDia;
+package OOPS.MasterChallengeTim;
 
 public class MealOrder {
     private Item side;
