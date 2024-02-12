@@ -20,7 +20,6 @@ public class LoveCalculator {
 
     private static  int calculateScore(String name) {
         int invscore =0;
-
         char[] letters = name.toUpperCase().toCharArray();
         for (char letter : letters){
             String love = "TRUE LOVE";
