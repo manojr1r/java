@@ -1,4 +1,4 @@
-package Array;
+package Collections.Array;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -7,7 +7,7 @@ public class MinimumElement {
 
     private static int readInteger(){
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter Array size, needs to enter number that many times");
+        System.out.println("Please enter Collections.Array size, needs to enter number that many times");
         return   scanner.nextInt();
     }
 
@@ -23,7 +23,7 @@ public class MinimumElement {
     }
 
     private static int findMin(int[] array ){
-//        another approach in src/Array/VideoMinimumElementChallenge.java
+//        another approach in src/Collections.Array/VideoMinimumElementChallenge.java
         Arrays.sort(array);
         return array[0];
     }

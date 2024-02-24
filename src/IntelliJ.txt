@@ -27,3 +27,9 @@ Find Usages
 You can view the list of all usages of a class, method or variable across the whole project, and quickly navigate to the selected item.
 Place the caret at a symbol and press Ctrl Alt F7 (Edit | Find Usages | Show Usages).
 To jump to a usage, select it from the list and press Enter
+
+Surround code fragments
+You can quickly wrap a code block in useful constructs.
+Select it in the editor and press Ctrl Alt T (Code | Surround With).
+The list of available options or wrappers is context-sensitive and depends on the language.
+For example, you can surround html blocks with tags, and so on.
