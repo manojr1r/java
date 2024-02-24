@@ -1,10 +1,10 @@
-package Array.TwoDimensionalArrays;
+package Collections.Array.TwoDimensionalArrays;
 
 import java.util.Arrays;
 
 public class Intro1 {
     public static void main(String[] args) {
-        int[][] arr =  new int[2][2]; //fixed length and width Array
+        int[][] arr =  new int[2][2]; //fixed length and width Collections.Array
         arr[0][0] = 1 ;
         arr[1][1] = 6 ;
         /*
@@ -20,7 +20,7 @@ public class Intro1 {
          };
          */
 
-        System.out.println("new Array = "+Arrays.deepToString(arr));
+        System.out.println("new Collections.Array = "+Arrays.deepToString(arr));
 
 
     }

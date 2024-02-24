@@ -1,10 +1,10 @@
-package Array;
+package Collections.Array;
 
 import java.util.Arrays;
 
 public class VideoChalenge {
     public static void main(String[] args) {
-        // Sort the Array in the descending order
+        // Sort the Collections.Array in the descending order
         int[] arr = {3,2,0,1};//RandomArray.generate(10);
         System.out.println("Generated "+ Arrays.toString(arr));
 

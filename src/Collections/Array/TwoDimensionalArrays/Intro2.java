@@ -1,10 +1,10 @@
-package Array.TwoDimensionalArrays;
+package Collections.Array.TwoDimensionalArrays;
 
 import java.util.Arrays;
 
 public class Intro2 {
     public static void main(String[] args) {
-        int[][] arr =  new int[3][];  //fixed length but no width Array
+        int[][] arr =  new int[3][];  //fixed length but no width Collections.Array
 
         int[][] arr1 =  { /*created and */
                 {1,2,3},

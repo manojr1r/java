@@ -1,11 +1,11 @@
-package Array;
+package Collections.Array;
 
 import java.util.Arrays;
 
 public class Intro {
     public static void main(String[] args) {
-// Cannot delete from Array
-//    three ways to initialize Array
+// Cannot delete from Collections.Array
+//    three ways to initialize Collections.Array
         int[] a = new int[5]; /* 1st */  /* "[]" both sides*/
         a[0] = 3;
         System.out.println( a.length);

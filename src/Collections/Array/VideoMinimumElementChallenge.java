@@ -1,6 +1,5 @@
-package Array;
+package Collections.Array;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class VideoMinimumElementChallenge {
@@ -18,7 +17,7 @@ public class VideoMinimumElementChallenge {
     }
 
     public static int findMin(int[] array ){
-//      another approach in src/Array/MinimumElement.java
+//      another approach in src/Collections.Array/MinimumElement.java
         /*
         Assume a max no. of Integer is the min an compare
          */
