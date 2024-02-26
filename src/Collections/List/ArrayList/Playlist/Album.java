@@ -17,7 +17,7 @@ public class Album {
         for (Song song : songs){
             if (song.getTitle().equalsIgnoreCase(title)){
                 Song song1 = new Song(title, duration);
-                songs.add( song );
+                songs.add( song1 );
                 return true;
             }
         }

@@ -24,9 +24,6 @@ public class MethodArguments {
             num += old;
             old = temp;
 
-
-
-
         }
     }
 }
