@@ -10,7 +10,7 @@ public class FunctionCallIndirectly {
     public static int doubleValue(int a){
         return a * 2;
     }
-    public static void  callingFunction(int value , String methodName){
+    public static void  callingFunction(int value , FunctionCallIndirectly methodName){
 //        methodName(value);
     }
 }

@@ -1,4 +1,4 @@
-package POJO;
+package RecordPOJO;
 
 public class Student {
     // Plain Old Java Object

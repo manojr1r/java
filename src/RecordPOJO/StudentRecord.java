@@ -1,4 +1,4 @@
-package POJO;
+package RecordPOJO;
 
 public record StudentRecord(String id, String name, String dateofBirth, String classList) {
     // It will create fields with same name as above
@@ -8,5 +8,7 @@ public record StudentRecord(String id, String name, String dateofBirth, String c
     */
     // will create "toString"
 // "NoSETTER" as all fields are final
+
+    //Record comes with implicit equal methods
 
 }
