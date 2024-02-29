@@ -33,3 +33,13 @@ You can quickly wrap a code block in useful constructs.
 Select it in the editor and press Ctrl Alt T (Code | Surround With).
 The list of available options or wrappers is context-sensitive and depends on the language.
 For example, you can surround html blocks with tags, and so on.
+
+Live templates
+Use live templates to insert frequent code constructs.
+When you select a live template from the suggestion list, the template expands to the variant that is defined on the Editor
+Live Templates page of the Settings/Preferences dialog (Ctrl Alt S).
+
+Create code constructs with completion
+You can create code constructs using statement completion.
+Start typing a method declaration, a method call or a statement such as if, do-while, try-catch, or return.
+Press Ctrl Shift Enter to complete the statement into a syntactically correct construct.
