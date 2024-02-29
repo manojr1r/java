@@ -3,7 +3,7 @@ package Collections.List.ArrayList;
 import java.util.*;
 
 public class VideoChallenge {
-    private static final ArrayList<String> listInput = new ArrayList<>();
+    private static ArrayList<String> listInput = new ArrayList<>();
     private static Scanner scanner =new Scanner(System.in);
     public static void main(String[] args) {
 
@@ -13,6 +13,7 @@ public class VideoChallenge {
 
     private static void userInput() {
         boolean flag = true; int input =-1 ;
+//        Scanner scanner =new Scanner(System.in);
         do {
             System.out.print("""
                 0 -> to Close
@@ -20,24 +21,23 @@ public class VideoChallenge {
                 2 -> to remove the item from the list
                 Enter a number for which action you want to do :""");
             try {
-                input = scanner.nextInt();
+                input = Integer.parseInt( scanner.nextLine());
             }
-            catch (InputMismatchException e){
+            catch (Exception e){
                 System.out.println("Please Enter no. from above ");
-                scanner.next();
+                input = Integer.parseInt(scanner.nextLine());
             }
             switch (input) {
                 case 0 -> flag = false;
                 case 1 -> addInput();
                 case 2 -> removeValues();
-                default -> flag = false;
             }
         }while (flag);
     }
 
     public static void addInput(){
-
-        System.out.println("Enter values to add with \",\" in between ");
+//        Scanner scanner =new Scanner(System.in);
+        System.out.println("Enter items to add with \",\" in between ");
         String input = scanner.nextLine();
         String[] inputToArray = (input.split(","));
         for (String value : inputToArray){
@@ -57,7 +57,7 @@ public class VideoChallenge {
 
     }
     public static void removeValues(){
-
+//        Scanner scanner =new Scanner(System.in);
         System.out.println("values to remove from the list \",\" in between ");
         String input = scanner.nextLine();
         String[] inputtoArray = input.split(",") ;
