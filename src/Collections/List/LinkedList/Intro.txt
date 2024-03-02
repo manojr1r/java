@@ -1,0 +1,6 @@
+LinkedList will implement List, Queue, Stack methods
+
+Queue - FIDO First in and First out
+    Linkedlist - Double end Queue
+
+Stack LIFO - Last in First Out

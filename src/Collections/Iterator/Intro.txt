@@ -1,0 +1,5 @@
+Iterator has two types
+iterator, listiterator
+
+iterator is one way direction
+listIterator can traverse both ways
