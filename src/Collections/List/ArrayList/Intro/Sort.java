@@ -12,7 +12,9 @@ public class Sort {
         arrayList.addAll(Arrays.asList("Biryani", "Mandi"));
 
         System.out.println(arrayList);
+
         arrayList.sort(Comparator.naturalOrder());
+
         System.out.println(arrayList);
         arrayList.sort(Comparator.reverseOrder());
         System.out.println(arrayList);
