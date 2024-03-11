@@ -23,10 +23,10 @@ To check all methods in Class
  For example, the selection expands from a method name to the expression calling this method,
  then to the whole statement, then to the containing block, and so on.
 
-Find Usages
-You can view the list of all usages of a class, method or variable across the whole project, and quickly navigate to the selected item.
-Place the caret at a symbol and press Ctrl Alt F7 (Edit | Find Usages | Show Usages).
-To jump to a usage, select it from the list and press Enter
+
+Find usages
+Press Alt F7 to quickly locate all occurrences of code referencing the symbol at the caret,
+no matter if the symbol is a part of a class, method, field, parameter, or another statement.
 
 Surround code fragments
 You can quickly wrap a code block in useful constructs.
@@ -43,3 +43,13 @@ Create code constructs with completion
 You can create code constructs using statement completion.
 Start typing a method declaration, a method call or a statement such as if, do-while, try-catch, or return.
 Press Ctrl Shift Enter to complete the statement into a syntactically correct construct.
+
+Access VCS-related options
+Press Alt Back-Quote to access all VCS-related commands available in the current context.
+
+Evaluate expression
+You can execute expressions or reassign values for variables while your script is stopped by a breakpoint.
+The Evaluate Expression functionality helps you to obtain additional details about the program state or test various scenarios at runtime.
+•  If the expression is present in the code, hold Alt (on Windows and Linux) or ⌥ (on macOS) and click it.
+ If you want to evaluate a specific code fragment, select it before clicking.
+•  To evaluate an arbitrary expression, select Run | Debugging Actions | Evaluate Expression.
