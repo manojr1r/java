@@ -1,4 +1,4 @@
-package OOPS.Abstraction.Challenge;
+package OOPS.Abstraction.ChallengeUncomplete;
 
 public abstract class ProductForSale {
 
