@@ -48,7 +48,8 @@ public class Bank {
             for (var transaction :customer.transactions()){
                 System.out.printf("%10.2f %n",transaction);
             }
-        }else System.out.printf("%s Please create account in our bank%n",customer.name());
+        }
+        else System.out.printf("%s Please create account in our bank%n",customer.name());
     }
 
 }

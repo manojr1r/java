@@ -1,0 +1,11 @@
+declared with "abstract" modifier
+abstract class <className>{
+
+abstract void <methodName>() // no brackets
+
+}
+
+can't create instance, as it is non complete class
+can still have constructor where subclasses can use it!!
+
+extend an abstract Class and non-abstract Class
