@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 enum EnumInterface implements Interface {TEST_1,
     TEST_2,
-    TEST_3;
+    TEST_3; //";" needed as extra methods has written
 
 
     @Override
