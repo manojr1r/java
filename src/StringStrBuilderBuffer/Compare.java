@@ -1,4 +1,4 @@
-package String;
+package StringStrBuilderBuffer;
 
 public class Compare {
     public static void main(String[] args) {
