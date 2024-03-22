@@ -1,11 +1,8 @@
 package Collections;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Objects;
-import java.util.Set;
+import java.util.*;
 
-public class HashCode {
+public class HashCodePra {
     public static void main(String... args) {
 
         String atext = "Hello";
@@ -35,7 +32,5 @@ public class HashCode {
 
     }
 
-    public static String reverse(String correct){
-        return String.valueOf(new StringBuilder(correct).reverse());
-    }
+
 }
