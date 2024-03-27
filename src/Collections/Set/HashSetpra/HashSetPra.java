@@ -1,4 +1,4 @@
-package Collections.Set;
+package Collections.Set.HashSetpra;
 
 import java.util.HashSet;
 import java.util.List;
@@ -16,13 +16,15 @@ public class HashSetPra {
         Student csk = new Student("Csk",5);
         Set<Student> unio = new java.util.HashSet<>(List.of(amr, apr, ysr));
         Set<Student> unio1 = new HashSet<>(List.of(apr, ysr, csk));
+
+// Symmetric operation 
         unio.addAll(unio1); // as set will not add duplicates
         System.out.println("A ∪ B =" + unio);
 
         Set<Student> interset = new java.util.HashSet<>(List.of(amr, apr, ysr));
         interset.retainAll(unio1);
         System.out.println("A ∩ B =" + interset);
-
+// ASymmetric
 
 
 

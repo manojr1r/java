@@ -53,3 +53,7 @@ The Evaluate Expression functionality helps you to obtain additional details abo
 •  If the expression is present in the code, hold Alt (on Windows and Linux) or ⌥ (on macOS) and click it.
  If you want to evaluate a specific code fragment, select it before clicking.
 •  To evaluate an arbitrary expression, select Run | Debugging Actions | Evaluate Expression.
+
+Select In
+To quickly select the currently edited element (a class, file, method, or field) in another view,
+press Alt F1 or call Navigate | Select In.

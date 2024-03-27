@@ -3,6 +3,9 @@ package Collections;
 import java.util.*;
 
 public class HashCodePra {
+
+    String atext;
+    String bText;
     public static void main(String... args) {
 
         String atext = "Hello";
