@@ -1,6 +1,11 @@
 
 Ctrl + Shift + F (Search Everywhere)
 
+Postfix code completion
+Postfix code completion is applied from right to left to avoid backward caret jumps when coding. Type a dot ""."
+ after the code fragment that you want to change and select the desired option.
+To see the suggestion list with postfix templates, you can also press Ctrl J
+
 Search Everywhere
 Press Shift twice to search for files, actions, symbols, UI elements, Git branches and comments across your project.
 Pressing double Shift again, will extend the search to non-project items.

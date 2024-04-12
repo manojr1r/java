@@ -1,0 +1,11 @@
+Consumer             ||  BiConsumer
+void accept(T t)     ||  void accept(T t, U u)  // of two different type parameters
+
+Function
+R apply(T t)
+
+Predicate
+boolean test(T t)
+
+Supplier
+T get()

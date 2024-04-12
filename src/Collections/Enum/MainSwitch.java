@@ -1,10 +1,15 @@
 package Collections.Enum;
 
 import java.util.Arrays;
+
 public class MainSwitch {
+    protected enum EnumIntro  {TEST_1,
+        TEST_2,
+        TEST_3
+    }
     public static void main(String[] args) {
         EnumIntro valu = EnumIntro.TEST_3;
-        System.out.println("Single Value "+EnumIntro.TEST_3.ordinal()+" = "+ valu);
+        System.out.println("Single Value "+ Main.EnumIntro.TEST_3.ordinal()+" = "+ valu);
 
         //Creating object to use method on Enum
         enumSwitch(valu);
