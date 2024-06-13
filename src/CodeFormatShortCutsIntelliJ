@@ -1,0 +1,26 @@
+In IntelliJ IDEA, you can use the following shortcuts to format your code:
+
+1. **Reformat Code**: This shortcut helps in reformatting the entire file or a selected block of code according to the code style settings.
+
+    - Windows/Linux: `Ctrl + Alt + L`
+    - macOS: `Cmd + Option + L`
+
+2. **Optimize Imports**: This shortcut removes any unused imports and organizes the remaining imports according to the defined order.
+
+    - Windows/Linux: `Ctrl + Alt + O`
+    - macOS: `Cmd + Option + O`
+
+3. **Indent Lines**: This shortcut indents the selected lines of code by one tab (or according to the indentation settings).
+
+    - Windows/Linux: `Ctrl + Alt + I`
+    - macOS: `Cmd + Option + I`
+
+4. **Auto-indent Lines**: This shortcut re-indents the selected lines of code according to the surrounding code structure.
+
+    - Windows/Linux: `Ctrl + Alt + L`
+    - macOS: `Cmd + Option + L`
+
+5. **Code Cleanup**: This action applies a set of code style rules and optimizations to the entire file.
+
+    - Windows/Linux: `Ctrl + Alt + Shift + L`
+    - macOS: `Cmd + Option + Shift + L`
