@@ -13,7 +13,7 @@ class Store {
 
        ProductForSale sneakers = new Shoes("rest Walk", 7000, "to walk");
         ProductForSale regularShoes = new Shoes("shoes", 900, "for school");
-        ProductForSale ecoLatexClassic = new Matteres("beds", 14999, "for sleep");
+        ProductForSale ecoLatexClassic = new Matters("beds", 14999, "for sleep");
         productForSales.add(sneakers);
         productForSales.add(regularShoes);
         productForSales.add(ecoLatexClassic);
@@ -37,6 +37,7 @@ class Store {
         }
        if (!itemFound) {
            OrderItem orderItem = new OrderItem(item, quantity);
+           item.showDetails();
            orderItems.add(orderItem);
        }
     }
