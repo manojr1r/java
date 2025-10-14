@@ -14,7 +14,7 @@ public class LargestPrimeTim {
             }
             return -1;
         }
-        int factor = -1, unique;
+        int factor = -1, unique = 0;
         for (int divisior = 2; divisior <= Math.sqrt(number); divisior++) { //largest prime factor of a number cannot exceed its square root.
 
             if (number % divisior != 0) {
