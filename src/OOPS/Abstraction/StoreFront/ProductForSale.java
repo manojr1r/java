@@ -2,9 +2,9 @@ package OOPS.Abstraction.StoreFront;
 
 public abstract class ProductForSale {
 
-    private final String type;
-    private final int price;
-    private final String description;
+    protected final String type;
+    protected final int price;
+    protected final String description;
 
     @Override
     public String toString() {
