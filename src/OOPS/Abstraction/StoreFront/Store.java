@@ -42,9 +42,13 @@ class Store {
     }
 
     public static void printOrder(){
+        double orderTotal = 0;
         for (OrderItem orderedItem:orderItems){
-            System.out.println(orderedItem.getItem() + " each "+ orderedItem.getItem().getPrice() + ", Quantity " + orderedItem.getQuantity() + ", Total = " + salesPrice(orderedItem.getItem(), orderedItem.getQuantity()));
+            int itemTotal = salesPrice(orderedItem.getItem(), orderedItem.getQuantity());
+            orderTotal += itemTotal;
+            System.out.println(orderedItem.getItem() + " each "+ orderedItem.getItem().getPrice() + ", Quantity " + orderedItem.getQuantity() + ", Total = " + itemTotal);
         }
+        System.out.println("\n "+("-".repeat(30) +"\n "+"Total order amount = " + orderTotal ));
     }
 
 }
