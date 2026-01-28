@@ -3,8 +3,7 @@ package Collections.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class MinimumElement {
-
+public class MinimumElement{
     private static int readInteger(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter Collections.Array size, needs to enter number that many times");
